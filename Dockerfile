@@ -1,5 +1,7 @@
 FROM debian:8
 
+LABEL maintainer="Dennis Hoppe"
+
 ENV container docker
 ENV LC_ALL C
 ENV DEBIAN_FRONTEND noninteractive
