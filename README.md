@@ -5,14 +5,13 @@ This [Docker](https://www.docker.com) image can be used to test [Ansible](https:
 ## Supported tags
 
 * latest
-* 8
 
 ## Usage
 
 Run the container as a daemon
 
 ```console
-docker run --cap-add SYS_ADMIN --cap-add SYS_TIME --detach --name debian-8 --rm --volume /sys/fs/cgroup:/sys/fs/cgroup:ro dhoppe/molecule-debian-8
+docker run --cap-add SYS_ADMIN --cap-add SYS_TIME --detach --name debian-8 --rm --volume /sys/fs/cgroup:/sys/fs/cgroup:ro dhoppeit/molecule-debian-8
 ```
 
 Enter the container
